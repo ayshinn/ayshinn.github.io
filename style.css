@@ -7,10 +7,11 @@
 
 h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 64px;
   color: Crimson;
   /*background-color: Crimson;*/
   background-image: url(images/favepic.jpg);
+  background-size: contain;
 }
 
 p {
