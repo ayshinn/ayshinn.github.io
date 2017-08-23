@@ -1,6 +1,9 @@
 /* style sheet */
 * {
-  font-family: 'Georgia', 'Times', serif;
+    margin: 0;
+    padding: 0;
+    font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
+    color: #444444
 }
 
 h1 {
