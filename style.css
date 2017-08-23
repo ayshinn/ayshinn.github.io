@@ -8,8 +8,9 @@
 h1 {
   text-align: center;
   font-size: 48px;
-  color: Aqua;
-  background-color: Crimson;
+  color: Crimson;
+  /*background-color: Crimson;*/
+  background-image: url(images/favepic.jpg);
 }
 
 p {
