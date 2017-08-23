@@ -12,6 +12,7 @@ h1 {
   /*background-color: Crimson;*/
   background-image: url(images/favepic.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 p {
