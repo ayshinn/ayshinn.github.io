@@ -5,14 +5,20 @@
     color: #444444
 }
 
-h1 {
-  text-align: center;
-  font-size: 64px;
-  color: Crimson;
-  /*background-color: Crimson;*/
+.header {
+  margin: 0;
   background-image: url(images/favepic.jpg);
+  height: 350px;
+  background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: Crimson;
+  /*background-color: Crimson;*/
 }
 
 p {
