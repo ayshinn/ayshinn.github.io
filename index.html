@@ -44,10 +44,41 @@
     <li>My memes are dank but not too dank</li>
   </ol>
   
-  <div id="yoboi">
+  <!--<div id="yoboi">
     <p>not much here</p>
+    <img src="images/dog.jpg" alt="doggo" id="jspic">
   </div>
-  <script src="testapp.js"></script>
+  <script src="testapp.js"></script>-->
+
+  <script language="javascript" type="text/javascript">
+  var yesss = true;
+  //var img = document.getElementById(jspic).src;
+  function changecatdog() {
+    if (yesss) {
+      document.getElementById("jspic").src = "images/cat.jpg";
+      yesss = false;
+    }
+    else {
+      document.getElementById("jspic").src = "images/dog.jpg";
+      yesss = true;
+    }
+  }
+  </script>
+  <img src="images/dog.jpg" alt="doggo" id="jspic" onmouseover="this.style.cursor='pointer'" onclick="changecatdog()" />
+
+
+  <!--<script language="javascript" type="text/javascript">
+    function chngimg() {
+        var img = document.getElementById('imgplus').src;
+        if (img.indexOf('Plus.gif')!=-1) {
+            document.getElementById('imgplus').src  = 'Images/Minus.gif';
+        } else {
+           document.getElementById('imgplus').src = 'Images/Plus.gif';
+       }
+    }
+  </script>
+  <img id="imgplus" alt="" src="Images/Plus.gif" onmouseover="this.style.cursor='pointer'" onclick="chngimg()"   />-->
+
 
   <!-- CONTACT INFO AND STUFF. CHANGE THE EMAIL ONE -->
 <a href="https://github.com/ayshinn" target="_blank">
