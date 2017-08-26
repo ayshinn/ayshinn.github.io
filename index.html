@@ -56,14 +56,18 @@
   function changecatdog() {
     if (yesss) {
       document.getElementById("jspic").src = "images/cat.jpg";
+      document.getElementById("dogcatmsg").innerHTML = "Click the cute cat!";
       yesss = false;
     }
     else {
       document.getElementById("jspic").src = "images/dog.jpg";
+      document.getElementById("dogcatmsg").innerHTML = "Click the cute dog!";
       yesss = true;
     }
   }
   </script>
+  <br>
+  <h5 id="dogcatmsg">Click the cute dog!</h5>
   <img src="images/dog.jpg" alt="doggo" id="jspic" onmouseover="this.style.cursor='pointer'" onclick="changecatdog()" />
   <br> 
   <br>
