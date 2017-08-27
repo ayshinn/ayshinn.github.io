@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 
 // function coinToss() {
 //   // This function will randomly return either 'heads' or 'tails'.
