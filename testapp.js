@@ -15,11 +15,12 @@ let img;
 // if/else statement begins here:
 if (coinToss() === 'heads') {
   	img = (
-    	<img src={pics.kitty} />
+    	//<img src={pics.kitty} />
+        <img src="images/sunset.jpg" />
     );
 } else {
     img = (
-    	<img src={pics.doggy} />
+    	<img src="images/walk.jpg" />
     );
 }
 
@@ -27,3 +28,4 @@ ReactDOM.render(
 	img,
     document.getElementById('yoboi')
 );
+
