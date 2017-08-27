@@ -17,14 +17,14 @@ let description;
 if (coinToss() === 'heads') {
   	img = (
     	//<img src={pics.kitty} />
-        <img src="images/sunset.jpg" width="200" height="200"/>
+        <img src="images/sunset.jpg" width="320" height="200"/>
     );
-    description = (<p>Sometimes I'm a sunset...</p>);
+    description = (<p>Sometimes I am a sunset...</p>);
 } else {
     img = (
-    	<img src="images/walk.jpg" width="200" height="200"/>
+    	<img src="images/walk.jpg" width="320" height="200"/>
     );
-    description = (<p>Sometimes I'm a dune pic...</p>);
+    description = (<p>Sometimes I am a dune pic...</p>);
 }
 
 ReactDOM.render(
