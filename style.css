@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   font-size: 48px;
   color: Aqua;
@@ -25,6 +25,13 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+
+#yolists {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: red;
+}
+
+
 /*
 img {
   border-radius: 100%;
