@@ -26,7 +26,6 @@ if (coinToss() === 'heads') {
 
 ReactDOM.render(
 	<h5>please work</h5>,
-    //img,
     document.getElementById('yoboi')
 );
 
