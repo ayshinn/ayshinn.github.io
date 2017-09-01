@@ -15,33 +15,42 @@
 
 
   <!-- Header trial 2 -->
+  <!--
   <section id="theheads">
     <img src="images/favewide.jpg" alt="header pic 2" style="width:100%">
   </section>
 
-  <!--
+  
   <div id="header">
     <img id="headpic" src="images/favewide.jpg" alt="header pic 2" style="width:100%">
     <p id="headtext">Anthony Shinn | ayshinn</p>
   </div>
   -->
 
-  <h1>Anthony Shinnn</h1>
+  <header class="bgimage">
+    <div class="container htxt">
+      <h3>Anthony Shinn | ayshinn</h3>
+    </div>
+    
+  </header>
+
+  <h1>Anthony Shinn</h1>
 
   <!-- Navigation -->
   <nav class="navbar blue">
     <a href="index.html" class="button bar-item">Home</a>
     <a href="about.html" class="button bar-item">About</a>
-    <a href="#code" class="button bar-item">Code</a>
+    <a href="https://github.com/ayshinn" target="_blank" class="button bar-item">Code</a>
     <a href="#random" class="button bar-item">Random</a>
     <a href="#contact" class="button bar-item">Contact</a>
   </nav>
   
-  <h4>This site is still heavily in the works. Still actively adding more to this <br> So far written in HTML/CSS/JS</h4>
+  <div class="container-fluid">
+    <h3>Passionate software developer studying computer science at the University of Michigan.</h3>
+  </div>
   
-  <a href="https://github.com/ayshinn" target="_blank">My Github projects</a>
-  
-  <h4><a href="about.html">Learn more...</a></h4>
+    
+  <h4 class="container"><a href="about.html">Learn more...</a></h4>
 
   <p>
     The following are EECS courses I've taken at the University of Michigan:
@@ -55,51 +64,25 @@
     <li>EECS 388: Computer Security (currently taking)</li>
     <li>EECS 485: Web Development (currently taking)</li>
   </ul>
-  <img src="images/favepic.jpg" alt="pic1" width="140" height="100">
   
+  <a href="https://instagram.com/shinnstagram48" alt="instagram">
+    <img src="images/favepic.jpg" alt="pic1" width="140" height="100">
+  </a>
+  
+  
+  <br> <br>
   
   <!-- below is a hyperlink pic -->
-  <p>
-    Reasons why you should hire me as an intern:
-  </p>
-  <ol>
-    <li>I can code cool things</li>
-    <li>I'm a consistent worker</li>
-    <li>I sometimes can wake up before 8am on weekends</li>
-    <li>My memes are dank but not too dank</li>
-  </ol>
   
   <!-- TEST FOR JAVASCRIPT FILE WITH REACT??? -->
   <div id='yoboi'></div>
-  
-  <!-- Including React, ReactDOM and Babel CDN builds? -->
-  <script src="https://fb.me/react-15.0.1.js"></script>
-  <script src="https://fb.me/react-dom-15.0.1.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
-
-  <script src="testapp.js" type="text/babel"></script>
   <!-- TEST FOR JAVASCRIPT FILE WITH REACT??? -->
 
-  <p>THIS IS JUST A BARRIER BETWEEN TEST JS ABOVE AND COOL THING BELOW</p>
+  <p>The image above uses react.JS. The image below just uses JS</p>
 
-  <script language="javascript" type="text/javascript">
-  var yesss = true;
-  //var img = document.getElementById(jspic).src;
-  function changecatdog() {
-    if (yesss) {
-      document.getElementById("jspic").src = "images/cat.jpg";
-      document.getElementById("dogcatmsg").innerHTML = "Click the silly cat!";
-      yesss = false;
-    }
-    else {
-      document.getElementById("jspic").src = "images/dog.jpg";
-      document.getElementById("dogcatmsg").innerHTML = "Click the cute dog!";
-      yesss = true;
-    }
-  }
-  </script>
+  
   <br>
-  <h5 id="dogcatmsg">Click the cute dog!</h5>
+  <h5 id="dogcatmsg" class="container-fluid">Click the cute dog!</h5>
   <img src="images/dog.jpg" alt="doggo" id="jspic" onmouseover="this.style.cursor='pointer'" onclick="changecatdog()" width="500" height="334" />
   <br> 
   <br>
@@ -118,10 +101,38 @@
 
   <!-- JAVASCRIPT -->
 
+  <!-- CAT DOG JS PIC FUNCTION -->
+  <script language="javascript" type="text/javascript">
+  var yesss = true;
+  //var img = document.getElementById(jspic).src;
+  function changecatdog() {
+    if (yesss) {
+      document.getElementById("jspic").src = "images/cat.jpg";
+      document.getElementById("dogcatmsg").innerHTML = "Click the silly cat!";
+      yesss = false;
+    }
+    else {
+      document.getElementById("jspic").src = "images/dog.jpg";
+      document.getElementById("dogcatmsg").innerHTML = "Click the cute dog!";
+      yesss = true;
+    }
+  }
+  </script>
+  <!-- CAT DOG JS PIC FUNCTION -->
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  
+  <!-- Including React, ReactDOM and Babel CDN builds? -->
+  <script src="https://fb.me/react-15.0.1.js"></script>
+  <script src="https://fb.me/react-dom-15.0.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+  <script src="testapp.js" type="text/babel"></script>
 
 </body> 
 </html>

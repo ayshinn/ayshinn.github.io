@@ -34,11 +34,36 @@
   color: Aqua;
 }
 
+.bgimage {
+  /*margin: 0;*/
+  background-image: url(images/favewide.jpg);
+  height: 450px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.htxt {
+  position: relative;
+  text-align: center;
+  color: darkblue;
+  top: 170px;
+  width: 400px;
+  padding: 8px;
+  border: 5px solid gray;
+  background-color: darkorange;
+}
+
 h1 {
   text-align: center;
   font-size: 48px;
   color: Aqua;
-  background-color: Crimson;
+  padding: 10px;
+  background-color: darkslateblue;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 p {
