@@ -103,18 +103,23 @@
 
   <!-- CAT DOG JS PIC FUNCTION -->
   <script language="javascript" type="text/javascript">
-  var yesss = true;
+  var num = 1;
   //var img = document.getElementById(jspic).src;
   function changecatdog() {
-    if (yesss) {
+    if (num === 1) { // dog to cat
       document.getElementById("jspic").src = "images/cat.jpg";
       document.getElementById("dogcatmsg").innerHTML = "Click the silly cat!";
-      yesss = false;
+      num = 2;
     }
-    else {
+    else if (num === 3) { // bunny to dog
       document.getElementById("jspic").src = "images/dog.jpg";
       document.getElementById("dogcatmsg").innerHTML = "Click the cute dog!";
-      yesss = true;
+      num = 1;
+    }
+    else { // cat to bunny
+      document.getElementById("jspic").src = "images/bunny.jpg";
+      document.getElementById("dogcatmsg").innerHTML = "Click the small bunny!";
+      num = 3;
     }
   }
   </script>
