@@ -3,6 +3,7 @@
 
 function playground() {
     alert("THIS RAN!");
+    console.log("THIS RAN THRU CONSOLE LOG?");
 }
 
 
