@@ -1,6 +1,11 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 
+function playground() {
+    alert("THIS RAN!");
+}
+
+
 function coinToss() {
   // This function will randomly return either 'heads' or 'tails'.
   return Math.random() < 0.5 ? 'heads' : 'tails';
